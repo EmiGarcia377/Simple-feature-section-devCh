@@ -5,7 +5,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://emigarcia377.github.io/Simple-feature-section-devCh/">
       Demo
     </a>
     <span> | </span>
