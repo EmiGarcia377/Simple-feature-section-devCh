@@ -31,6 +31,8 @@
 
 ## Overview
 
+![screenshot](resources/thumbnail.jpg)
+
 In this project i practiced with a little CSS Flexbox and HTML, I also learned how to make the website responsive with media queries in CSS.
 
 ### What I learned
