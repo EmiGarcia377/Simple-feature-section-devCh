@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*Estilos por defecto*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #121826;
+    background-image: url(resources/Background_image@2x.png);
+}
+
+/*Containers*/
+.ft-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-container{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos de textos*/
+.ft-header{
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.ft-desc{
+    color: #9DA3AE;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.smallheader{
+    color: #E5E7EB;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5%;
+}
+
+.icon{
+    display: inline-block;
+    font-size: 2rem;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+}
+
+#ico-1{
+    background-color: #FCEED8;
+}
+
+#ico-2{
+    background-color: #DEE9FC;
+}
+
+#ico-3{
+    background-color: #FBE5E6;
+}
+
+.card-text{
+    color: #9DA3AE;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-right: 30%;
+}
+
+/*Estilos de imagen*/
+.img-container img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+/*Estilos de las cartas*/
+.card {
+    background-color: #212936;
+    width: 80%;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+    border-radius: 16px;
+}
+
+.text-container{
+    padding: 8%;
+}
+
+/*Media queries*/
+@media(min-width: 1024px){
+    .ft-container{
+        display: flex;
+        align-items: center;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 40%;
+    }
+}
+@media (min-width: 1280px) {
+    .cards-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        width: 30%;
+    }
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
